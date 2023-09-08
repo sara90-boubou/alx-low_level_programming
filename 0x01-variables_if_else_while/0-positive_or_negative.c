@@ -1,12 +1,8 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
-
+#include <time.h>
 /**
  * main - entry point
- *
- * Description: positive or negative
  *
  * Return : 0 (success)
  */
