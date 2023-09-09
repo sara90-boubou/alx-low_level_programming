@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 *
-* Description: Write a C program that prints the size of various types.
+* Description: Alphabets without'e'  and 'q'.
 *
 * Return: 0 (Success)
 */
