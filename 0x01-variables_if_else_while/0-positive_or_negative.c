@@ -2,14 +2,15 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - entry point
- *
- * Return : 0 (success)
- */
+* main - Entry point
+*
+* Description: Generates a random number.
+*
+* Return: Always 0 (Success)
+*/ 
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
