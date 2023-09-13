@@ -23,8 +23,8 @@ if (k <= 9)
 _putchar(' ');
 }
 else
-_putchar((prod / 10) + 84);
-_putchar((prod % 10) + 84);
+_putchar((prod / 10) + 48);
+_putchar((prod % 10) + 48);
 }
 _putchar('\n');
 }
