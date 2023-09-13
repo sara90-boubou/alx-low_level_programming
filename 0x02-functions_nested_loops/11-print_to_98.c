@@ -13,7 +13,7 @@ int count;
 if (n > 98)
 for (count = n; count > 98; count--)
 else
-for (count = 0; count < 98; count++)
+for (count = n; count < 98; count++)
 print("%d, ", count);
 print("98\n");
 }
