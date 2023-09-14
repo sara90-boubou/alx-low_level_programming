@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+* positive_or_negative - prints if @i is negative or
+*    positive or null
+*
+*    @i : input
+*/
 void positive_or_negative(int i)
 {
 if (i > 0)
