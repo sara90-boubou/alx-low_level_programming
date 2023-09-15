@@ -6,7 +6,9 @@
 */
 int main(void)
 {
-int a, b, c;
+int a;
+int b;
+int c;
 int largest;
 a =999;
 b = -98;
