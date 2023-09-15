@@ -16,6 +16,7 @@ year = 2000;
 printf("Date: %02d/%02d/%04d\n", month, day, year);
 day = convert_day(month, day);
 printf("Invalid date: 02/29/2000");
+printf("\n");
 return (0);
 }
 
