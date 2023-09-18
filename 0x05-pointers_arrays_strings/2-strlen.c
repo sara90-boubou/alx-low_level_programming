@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strlen - Calculates the length of a string.
+i* _strlen - Calculates the length of a string.
 *
 * @s: A pointer to a null-terminated string.
 *
@@ -14,6 +14,6 @@ int _strlen(char *s)
 {
 int counter;
 for (counter = 0; *s != '\0'; s++)
-++counter
+++counter;
 return (counter);
 }
