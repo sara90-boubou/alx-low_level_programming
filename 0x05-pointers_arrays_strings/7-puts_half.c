@@ -14,7 +14,7 @@ int n;
 int count = 0;
 for (i = 0; str[i] != '\0'; i++)
 {
-counter++;
+count++;
 n = (count - 1) / 2;
 }
 for (i = n + 1; str[i] != '\0'; i++)
