@@ -12,7 +12,7 @@ int i;
 int j;
 char c[] = "aAeEoOtTlL";
 char d[] = "4433007711";
-for (i = 0; c[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; c[j] != '\0'; j++)
 {
