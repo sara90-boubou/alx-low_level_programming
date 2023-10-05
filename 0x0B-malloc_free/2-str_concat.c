@@ -17,9 +17,9 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 for (i = 0; s1[i] != '\0'; i++)
-lens1++;
+s1len++;
 for (i = 0; s2[i] != '\0'; i++)
-lens2++;
+s2len++;
 output = malloc(sizeof(char) * (s1len + s2len) + 1);
 if (output == NULL)
 return (NULL);
