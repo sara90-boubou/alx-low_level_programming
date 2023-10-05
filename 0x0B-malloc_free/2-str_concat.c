@@ -26,6 +26,6 @@ return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
 output[i] = s1[i];
 for (i = 0; s2[i] != '\0'; i++)
-output[lens1] = s2[i];
+output[s1len + i] = s2[i];
 return (output);
 }
