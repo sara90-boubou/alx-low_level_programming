@@ -20,6 +20,7 @@ free(temp);
 *head = NULL;
 }
 }
+#include "lists.h"
 /**
 * print_listint_safe - prints a linked list.
 * @head: head of a list.
